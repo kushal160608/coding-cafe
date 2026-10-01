@@ -1,0 +1,16 @@
+  188  pwd
+  189  nano notes.md
+  190  cd ~\nmkdir -p coding-cafe/week01 coding-cafe/week02
+  191  ls
+  192  cd coding-cafe
+  193  touch README.md week02/notes.md
+  194  cp README.md README-backup.md
+  195  mv README-backup.md week01/
+  196  cd week01
+  197  mv README-backup.md old-readme.md
+  198  rm old-readme.md
+  199  cd ~/coding-cafe
+  200  python3 -m venv .venv
+  201  source .venv/bin/activate
+  202  pip install requests
+  203  deactivate
